@@ -10,7 +10,7 @@ Assess the task, project instructions and relevant context. Honor the user's mod
 1. Choose a level based on the most demanding part. Light suits bounded, reversible work with obvious verification. Standard suits ordinary implementation, debugging and review. Advanced suits ambiguous architecture, security-sensitive work, migrations, concurrency, data integrity and difficult failures.
 2. Increase the level when project rules or context identify sensitive code. A short request alone does not imply a simple task.
 3. State the level and a brief reason when useful. Respect any explicit model override.
-4. If delegation is permitted and appropriate, use the host's native subagent mechanism with an available model. Claude Code provides iu-light, iu-standard and iu-advanced agents with corresponding model aliases. In Codex request an available subagent model or use configured custom agents. The host can restrict model selection and delegation.
+4. If delegation is permitted and appropriate, use the host's native subagent mechanism with an available model. Claude Code provides light, standard and advanced agents with corresponding model aliases. In Codex request an available subagent model or use configured custom agents. The host can restrict model selection and delegation.
 5. Give the subagent a bounded task, context and expected result. Review its work and run relevant verification. If insufficient, retry with a stronger available model or handle the task directly.
 6. If the host cannot apply the chosen model, continue with the current model and report the limitation. Never claim a switch happened without confirmation from the host.
 

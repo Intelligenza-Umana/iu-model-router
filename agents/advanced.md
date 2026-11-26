@@ -1,5 +1,5 @@
 ---
-name: iu-advanced
+name: advanced
 description: Handle complex, ambiguous, security-sensitive or high-impact coding tasks requiring deeper reasoning.
 model: opus
 ---

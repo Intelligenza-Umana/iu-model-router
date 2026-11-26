@@ -1,5 +1,5 @@
 ---
-name: iu-light
+name: light
 description: Handle bounded, low-risk tasks with clear verification, such as simple lookups, summaries and mechanical edits.
 model: haiku
 ---
