@@ -6,7 +6,9 @@ A model-routing skill for coding agents by [Intelligenza Umana](https://github.c
 
 ## Requirements and status
 
-Codex or Claude Code, an authenticated account and access to the desired models. This is an early version. Native host discovery, delegation and model selection have not been verified end to end. The host may restrict or ignore delegation or model requests.
+Codex or Claude Code, an authenticated account and access to the desired models. This is an early version (0.1.0).
+
+**Verified on Claude Code 2.1.332**, in a headless run (`claude -p`) with the plugin loaded: the skill was discovered, a README typo was routed to `iu-light` and a JWT review to `iu-advanced`, and the session trace showed those subagents running on Haiku 5.5 and Opus 5.5 while the main session stayed on Sonnet 5.5. **Not verified:** Codex, other Claude Code versions, and sessions where the account lacks one of the three models. The host may still restrict or ignore delegation or model requests.
 
 ## Claude Code
 
