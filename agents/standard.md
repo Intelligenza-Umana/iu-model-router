@@ -1,5 +1,5 @@
 ---
-name: iu-standard
+name: standard
 description: Handle ordinary implementation, debugging and review across related files.
 model: sonnet
 ---

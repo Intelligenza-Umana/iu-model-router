@@ -1,4 +1,4 @@
-# IU Model Router
+# Model Router
 
 *Human intelligence. Artificial assistance.*
 
@@ -11,8 +11,8 @@ Codex or Claude Code, an authenticated account and access to the desired models.
 Clone the repository first:
 
 ```sh
-git clone https://github.com/fabiozagaria/iu-model-router.git
-cd iu-model-router
+git clone https://github.com/fabiozagaria/model-router.git
+cd model-router
 ```
 
 ## Claude Code
@@ -23,7 +23,7 @@ From the cloned repository run:
 claude --plugin-dir .
 ```
 
-Invoke `/iu-model-router:model-routing` or ask Claude to route a task by complexity. The included agents use Claude's `haiku`, `sonnet` and `opus` aliases. Models must be available to your account. Claude Code settings, permissions and model overrides can affect the model used. The `--plugin-dir` option loads the plugin for the session.
+Invoke `/model-router:model-routing` or ask Claude to route a task by complexity. The included agents use Claude's `haiku`, `sonnet` and `opus` aliases. Models must be available to your account. Claude Code settings, permissions and model overrides can affect the model used. The `--plugin-dir` option loads the plugin for the session.
 
 ## Codex
 
