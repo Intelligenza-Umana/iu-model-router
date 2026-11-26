@@ -8,18 +8,26 @@ A model-routing skill for coding agents by [Intelligenza Umana](https://github.c
 
 Codex or Claude Code, an authenticated account and access to the desired models. This is an early version. Native host discovery, delegation and model selection have not been verified end to end. The host may restrict or ignore delegation or model requests.
 
-Clone the repository first:
-
-```sh
-git clone https://github.com/fabiozagaria/iu-model-router.git
-cd iu-model-router
-```
-
 ## Claude Code
 
-From the cloned repository run:
+Install from the marketplace (Claude Code 2.1.275 or later), inside a session:
+
+```text
+/plugin install iu-model-router --marketplace Intelligenza-Umana/iu-model-router
+```
+
+Or from a terminal:
 
 ```sh
+claude plugin marketplace add Intelligenza-Umana/iu-model-router
+claude plugin install iu-model-router@iu-model-router
+```
+
+To try it without installing, clone the repository and load it for one session:
+
+```sh
+git clone https://github.com/Intelligenza-Umana/iu-model-router.git
+cd iu-model-router
 claude --plugin-dir .
 ```
 
@@ -27,7 +35,7 @@ Invoke `/iu-model-router:model-routing` or ask Claude to route a task by complex
 
 ## Codex
 
-From the cloned repository install the shared skill for your user:
+Clone the repository (see above), then install the shared skill for your user:
 
 ```sh
 mkdir -p ~/.agents/skills/model-routing
