@@ -1,0 +1,12 @@
+{
+  "name": "iu-model-router",
+  "owner": { "name": "Intelligenza Umana" },
+  "plugins": [
+    {
+      "name": "iu-model-router",
+      "source": "./",
+      "description": "Task-aware model routing for coding agents."
+    }
+  ],
+  "metadata": { "description": "Claude Code plugins by Intelligenza Umana." }
+}
