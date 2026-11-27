@@ -2,7 +2,7 @@
 
 *Human intelligence. Artificial assistance.*
 
-A model-routing skill for coding agents by [Intelligenza Umana](https://github.com/fabiozagaria/intelligenza-umana). It guides model choice using complexity, project context, risk and cost. It suggests light, standard or advanced subtasks and asks the host to verify delegated work and escalate when appropriate.
+A model-routing skill for coding agents by [Intelligenza Umana](https://github.com/Intelligenza-Umana/intelligenza-umana). It guides model choice using complexity, project context, risk and cost. It suggests light, standard or advanced subtasks and asks the host to verify delegated work and escalate when appropriate.
 
 ## Requirements and status
 
@@ -54,7 +54,7 @@ For example, ask the agent to use model routing to inspect a project, make a sma
 
 ## Verification and contributions
 
-Run `python3 -m unittest discover -s tests -v` to check the packaged manifest, skill and agent definitions. These checks do not execute a real agent session. Report reproducible problems through GitHub issues. For security issues, follow the [Intelligenza Umana security policy](https://github.com/fabiozagaria/intelligenza-umana/blob/main/SECURITY.md).
+Run `python3 -m unittest discover -s tests -v` to check the packaged manifest, skill and agent definitions. These checks do not execute a real agent session. Report reproducible problems through GitHub issues. For security issues, follow the [Intelligenza Umana security policy](https://github.com/Intelligenza-Umana/intelligenza-umana/blob/main/SECURITY.md).
 
 ## Sources
 
