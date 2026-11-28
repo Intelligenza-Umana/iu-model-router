@@ -12,6 +12,8 @@ Codex or Claude Code, an authenticated account and access to the desired models.
 
 ## Claude Code
 
+If you already use the [Intelligenza Umana marketplace](https://github.com/Intelligenza-Umana/iu-marketplace#add-the-marketplace), run `claude plugin install iu-model-router@intelligenza-umana` to install this plugin from the shared catalog.
+
 Install from the marketplace (Claude Code 2.1.275 or later), inside a session:
 
 ```text
