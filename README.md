@@ -37,14 +37,25 @@ Invoke `/iu-model-router:model-routing` or ask Claude to route a task by complex
 
 ## Codex
 
-Clone the repository (see above), then install the shared skill for your user:
+First, clone the repository and move into its directory (skip this step if you have already cloned it):
+
+```sh
+git clone https://github.com/Intelligenza-Umana/iu-model-router.git
+cd iu-model-router
+```
+
+From the repository root, install the shared skill for your user:
 
 ```sh
 mkdir -p ~/.agents/skills/model-routing
 cp -n skills/model-routing/SKILL.md ~/.agents/skills/model-routing/SKILL.md
 ```
 
-On systems where `cp -n` is unavailable, copy the file without overwriting an existing installation. Review any existing skill before replacing it. Restart Codex, then invoke `$model-routing` or ask it to choose models. Codex can use native subagents and their model settings when the client, account, instructions and session permit delegation. Configure or request models available in your environment. The Claude-specific agents do not configure Codex.
+These commands use a macOS/Linux-compatible shell. The `mkdir -p` command creates the destination directory if needed. The `cp -n` command copies the skill without overwriting an existing file.
+
+If your system does not support `cp -n`, copy the file manually without overwriting an existing installation. Review any existing skill before replacing it.
+
+Restart Codex, then invoke `$model-routing` or ask it to choose models. Codex can use native subagents and their model settings when the client, account, instructions and session permit delegation. Configure or request models available in your environment. The Claude-specific agents do not configure Codex.
 
 ## Behavior and limits
 
